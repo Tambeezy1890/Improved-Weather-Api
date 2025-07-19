@@ -1,12 +1,38 @@
-# React + Vite
+🌦️ Weather App (Remodelled)
+Remodelled weather API built using the React framework instead of vanilla JS.
+This app fetches real-time weather data and displays local time and conditions for cities around the world using the OpenWeatherMap API. The interface is animated, responsive, and cleanly designed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Search for any city to get current weather details
 
-Currently, two official plugins are available:
+Displays local time based on the city's timezone
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Animated background with smooth gradient transitions
 
-## Expanding the ESLint configuration
+Responsive layout for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Shows temperature, "feels like", humidity, and weather description
+
+Tech Stack
+React (with Vite or Create React App)
+
+CSS3 (with keyframe animations and media queries)
+
+OpenWeatherMap API for weather and timezone data
+
+Optionally: WorldTimeAPI for time fallback (optional)
+
+Installation
+-Clone the repository
+git clone https://github.com/your-username/weather-app.git
+
+-cd weather-app
+-Install dependencies
+npm install
+
+-Add your API key
+Create a .env file in the root directory:
+VITE_WEATHER_API_KEY=your_openweathermap_key_here
+
+-Start the development server
+npm run dev
